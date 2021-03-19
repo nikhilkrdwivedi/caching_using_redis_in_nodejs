@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs/issues"
   },
-  "homepage": "https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs#readme"
+  "homepage": "https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs#readme",
+  "dependencies": {
+    "koa": "^2.13.1"
+  }
 }
