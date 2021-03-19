@@ -1,2 +1,2 @@
-# caching_using_redis_in_nodejs
+# Caching Using Redis in Nodejs
 This is demo project of caching using Redis
