@@ -1,0 +1,19 @@
+{
+  "name": "caching_using_redis_in_nodejs",
+  "version": "1.0.0",
+  "description": "this is demo project of caching using redis",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs.git"
+  },
+  "author": "nikhilkrdwivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs/issues"
+  },
+  "homepage": "https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs#readme"
+}
