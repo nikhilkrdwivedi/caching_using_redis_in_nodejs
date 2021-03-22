@@ -51,7 +51,7 @@ Following setup required to make sure project up and run:
 - db folder contains redis.js file which is exporting a `connection for redis-cli`.
 - Config folder contains config.js file for configuration.
 #### Flow:
--When user first time hit `http://localhost:3000/`. API call will happen on `https://jsonplaceholder.typicode.com/comments` and fetch data. Here in controller file, we are saving this response in Redis and returning actual data. Here we are saving data in Redis with `TTL [time to live]` so after certain amount of time. This data will deleted from Redis. When user again hit on `3000` port. This time `checkInCache` middleware check if comments keys exists or not. If yes then it will  return data from cache else using `next middleware` it redirect to main `getData` function.
+- When user first time hit `http://localhost:3000/`. API call will happen on `https://jsonplaceholder.typicode.com/comments` and fetch data. Here in controller file, we are saving this response in Redis and returning actual data. Here we are saving data in Redis with `TTL [time to live]` so after certain amount of time. This data will deleted from Redis. When user again hit on `3000` port. This time `checkInCache` middleware check if comments keys exists or not. If yes then it will  return data from cache else using `next middleware` it redirect to main `getData` function.
 - ###### Note: `Before caching time of response: 664ms`
 
 - ![Before Cache](https://raw.githubusercontent.com/NikhilKrDwivedi/caching_using_redis_in_nodejs/master/screenshots/response_from_api_call.png)
