@@ -64,7 +64,7 @@ Following setup required to make sure project up and run:
 
 
 
-###### I have tried my best to give best documentation so that any one can easily undersatnd and use this project. But there is always hope of improvement so feel free to reach out to me your valuable suggestions will always welcome. Also, I would like to thank jsonplaceholder site for their open API. 
+###### I have tried my best to give best documentation so that any one can easily understand and use this project. But there is always hope of improvement so feel free to reach out to me your valuable suggestions will always welcome. Also, I would like to thank jsonplaceholder site for their open API. 
 
 #### Nikhil Kumar
 [linkedin](https://www.linkedin.com/in/nikhilkrdwivedi/) | nikhil.dwivedi@outlook.com | https://www.codeforcoder.com
