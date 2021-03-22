@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this is demo project of caching using redis",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/NikhilKrDwivedi/caching_using_redis_in_nodejs#readme",
   "dependencies": {
-    "koa": "^2.13.1"
+    "@koa/router": "^10.0.0",
+    "async-redis": "^1.1.7",
+    "koa": "^2.13.1",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/async-redis": "^1.1.1"
   }
 }
